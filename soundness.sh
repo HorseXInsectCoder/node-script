@@ -16,11 +16,13 @@ sudo apt install pkg-config -y
 curl -sSL https://raw.githubusercontent.com/soundnesslabs/soundness-layer/main/soundnessup/install | bash
 
 # 加载 bashrc
-source ~/.bashrc
+source /root/.bashrc
 
 # 安装并更新 soundnessup CLI
 soundnessup install
 soundnessup update
+
+source /root/.bashrc
 
 # 提示用户输入密钥名称
 echo "请输入你的密钥名称："
